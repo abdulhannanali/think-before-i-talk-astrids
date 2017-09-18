@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Roboto+Mono');
+
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+.bio {
+  position: fixed;
+  top: 0;
+  left: 0;
+    
+  height: 100%;
+  
+  width: 24rem;
+  padding: 1rem;
+  padding-top: 3rem;
+  
+  text-align: center;
+  
+  margin: 0px;
+  border: none;
+  border-right: 3px white solid;
+}
+
+.bio .image-title {
+  display: inline-block;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.bio .image-subtitle {
+  font-size: 2rem;
+  font-family: 'Alegreya', sans-serif;
+}
+
+.bio .image img {
+  width: 200px;
+  border-radius: 100%;
+}
+
+.bio a {
+  color: bisque;
+  text-decoration: none;
+}
+
+.bio a:hover {
+  text-decoration: underline;
+}
+
+.bio .twitter-social {
+  font-family: 'Alegreya', serif;
+  font-size: 1.3rem;
+}
+
+.bio .twitter-social a {
+  background: url(twitter-logo.png);
+  background-size: 32px 32px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  
+  padding-right: 46px;
+  
+  color: #1b95e0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.youtube a {
+  color: red;
+}
+
+.content {
+  margin: 0 auto;
+  text-align: center;
+  
+  margin-left: 26rem;
+  padding-left: 3rem;
+  padding-top: 2rem;
+  height: 900px;
+  overflow: hidden;
+}
+
+.content .video {
+  margin: 0 auto;
+}
+
+.content .video iframe {
+  margin-top: 30px;
+  height: 400px;
+  width: 500px;
+}
+
+.content .video p.video-description {
+  font-family: 'Alegreya', serif;
+  font-size: 1.5rem;
+}
+
+span.champion {
+  vertical-align: middle;
+  display: inline-block;
+  background-image: url(champion.png);
+  background-size: 32px 32px;
+  background-position: bottom;
+  width: 32px;
+  height: 32px;
+}
+
+p.listen-links {
+  font-family: 'Alegreya', serif;
+  font-size: 1.6rem;
+  margin: 0px;
+}
+
+p.listen-links span {
+  font-weight: bold;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a.listen.spotify {
+  color: #1db954;
+}
+
+a.listen.youtube {
+  color: red;
+}
+
+.credit {
+  font-size: 1.5rem;
+  border-top: 1px white solid;
+  margin-top: 3rem;
+  font-family: 'Alegreya', serif;
+}
+
+.credit a {
+  color: #1b95e0;
+}
