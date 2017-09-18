@@ -93,6 +93,11 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
 }
 
+.content .date {
+  color: bisque;
+  font-family: 'Roboto Mono', monospace;
+}
+
 .content .video iframe {
   margin-top: 30px;
   height: 400px;
